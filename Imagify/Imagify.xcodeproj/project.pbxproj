@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2C7FB32AF1626600A79FC5 /* CompleteTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C7FB22AF1626600A79FC5 /* CompleteTabs.swift */; };
+		9E2C7FB52AF1811600A79FC5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C7FB42AF1811600A79FC5 /* History.swift */; };
 		9E6924442AE9CB8A00DB4C48 /* ImagifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6924432AE9CB8A00DB4C48 /* ImagifyApp.swift */; };
 		9E6924462AE9CB8A00DB4C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6924452AE9CB8A00DB4C48 /* ContentView.swift */; };
 		9E6924482AE9CB8C00DB4C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6924472AE9CB8C00DB4C48 /* Assets.xcassets */; };
@@ -17,6 +19,7 @@
 		9E6924762AEA943000DB4C48 /* ColorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6924752AEA943000DB4C48 /* ColorModels.swift */; };
 		9E6924782AEADBF600DB4C48 /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6924772AEADBF600DB4C48 /* ImageDetail.swift */; };
 		9EC062AE2AF0793400F28CFF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC062AD2AF0793400F28CFF /* SpeechRecognizer.swift */; };
+		9EC062B02AF0AEE300F28CFF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC062AF2AF0AEE300F28CFF /* HistoryView.swift */; };
 		9EFF795F2AF058A100040527 /* DataToImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF795E2AF058A000040527 /* DataToImageDetail.swift */; };
 		9EFF79612AF0591400040527 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF79602AF0591400040527 /* CameraViewModel.swift */; };
 		9EFF79632AF059B000040527 /* locationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF79622AF059B000040527 /* locationViewModel.swift */; };
@@ -40,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E2C7FB22AF1626600A79FC5 /* CompleteTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTabs.swift; sourceTree = "<group>"; };
+		9E2C7FB42AF1811600A79FC5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		9E6924402AE9CB8A00DB4C48 /* Imagify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imagify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6924432AE9CB8A00DB4C48 /* ImagifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagifyApp.swift; sourceTree = "<group>"; };
 		9E6924452AE9CB8A00DB4C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 		9E6924752AEA943000DB4C48 /* ColorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModels.swift; sourceTree = "<group>"; };
 		9E6924772AEADBF600DB4C48 /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
 		9EC062AD2AF0793400F28CFF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		9EC062AF2AF0AEE300F28CFF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		9EFF795E2AF058A000040527 /* DataToImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToImageDetail.swift; sourceTree = "<group>"; };
 		9EFF79602AF0591400040527 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		9EFF79622AF059B000040527 /* locationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationViewModel.swift; sourceTree = "<group>"; };
@@ -110,7 +116,9 @@
 				9E69246E2AE9CB9A00DB4C48 /* Other */,
 				9E69246F2AE9DB1700DB4C48 /* Models */,
 				9E6924432AE9CB8A00DB4C48 /* ImagifyApp.swift */,
+				9E2C7FB22AF1626600A79FC5 /* CompleteTabs.swift */,
 				9E6924452AE9CB8A00DB4C48 /* ContentView.swift */,
+				9EC062AF2AF0AEE300F28CFF /* HistoryView.swift */,
 				9E6924772AEADBF600DB4C48 /* ImageDetail.swift */,
 				9E6924492AE9CB8C00DB4C48 /* Imagify.entitlements */,
 				9E69244A2AE9CB8C00DB4C48 /* Preview Content */,
@@ -159,6 +167,7 @@
 				9EFF79602AF0591400040527 /* CameraViewModel.swift */,
 				9EFF79622AF059B000040527 /* locationViewModel.swift */,
 				9EC062AD2AF0793400F28CFF /* SpeechRecognizer.swift */,
+				9E2C7FB42AF1811600A79FC5 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,10 +305,13 @@
 				9E6924462AE9CB8A00DB4C48 /* ContentView.swift in Sources */,
 				9EC062AE2AF0793400F28CFF /* SpeechRecognizer.swift in Sources */,
 				9E6924442AE9CB8A00DB4C48 /* ImagifyApp.swift in Sources */,
+				9E2C7FB52AF1811600A79FC5 /* History.swift in Sources */,
 				9EFF79632AF059B000040527 /* locationViewModel.swift in Sources */,
 				9E6924762AEA943000DB4C48 /* ColorModels.swift in Sources */,
 				9E6924782AEADBF600DB4C48 /* ImageDetail.swift in Sources */,
+				9E2C7FB32AF1626600A79FC5 /* CompleteTabs.swift in Sources */,
 				9EFF795F2AF058A100040527 /* DataToImageDetail.swift in Sources */,
+				9EC062B02AF0AEE300F28CFF /* HistoryView.swift in Sources */,
 				9EFF79612AF0591400040527 /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +476,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -505,7 +517,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

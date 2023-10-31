@@ -13,7 +13,6 @@ final class locationViewModel: NSObject, ObservableObject, CLLocationManagerDele
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
-        locationManager.startUpdatingLocation()
     }
     
     func convertLatLongToAddress(latitude:Double,longitude:Double){
@@ -41,9 +40,7 @@ final class locationViewModel: NSObject, ObservableObject, CLLocationManagerDele
             
             return
         }
-        print("This is slow I think")
         convertLatLongToAddress(latitude: latestLocation.coordinate.latitude, longitude: latestLocation.coordinate.longitude)
-        print(latestLocation.coordinate)
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {

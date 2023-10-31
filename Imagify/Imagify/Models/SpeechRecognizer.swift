@@ -66,6 +66,12 @@ actor SpeechRecognizer: ObservableObject {
         }
     }
     
+    @MainActor func flushTranscript(){
+        Task{
+            await flush()
+        }
+    }
+    
     private func transcribe() {
         guard let recognizer, recognizer.isAvailable else {
             self.transcribe(RecognizerError.recognizerIsUnavailable)
@@ -91,6 +97,12 @@ actor SpeechRecognizer: ObservableObject {
         audioEngine = nil
         request = nil
         task = nil
+    }
+    
+    private func flush(){
+        Task { @MainActor in
+            transcript = "Nothing"
+        }
     }
     
     private static func prepareEngine() throws -> (AVAudioEngine, SFSpeechAudioBufferRecognitionRequest) {
